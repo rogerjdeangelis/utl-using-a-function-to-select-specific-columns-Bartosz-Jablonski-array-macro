@@ -66,8 +66,8 @@ https://stackoverflow.com/questions/79216486/pivot-longer-with-parallel-unlinked
 /*  13 22 33 44             |  22 44   | 13 33 |                       |  odds        11          31                      */
 /*                          |          -       -                       |  odds        13          33                      */
 /* options                  |                                          |  even        02          04                      */
-/* validvarname=upcase;     |  NOTE HOW COLUMNS ARE RENAMED            |  even        20          40                      */
-/* libname sd1 "d:/sd1";    |  ============================            |  even        22          44                      */
+/* validvarname=upcase;     |                                          |  even        20          40                      */
+/* libname sd1 "d:/sd1";    |                                          |  even        22          44                      */
 /* data sd1.have;           |                                          |                                                  */
 /* input                    |           X1   X3                        |                                                  */
 /*    X1$ X2$ X3$ X4$ ;     |          THEN THEN                       |                                                  */
